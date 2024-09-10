@@ -1,45 +1,45 @@
 # EVM-based Chains
 
-The source data is in _data/chains. Each chain has its own file with the filename being the [CAIP-2](https://github.com/ChainAgnostic/CAIPs/blob/master/CAIPs/caip-2.md) representation as name and `.json` as extension.
+The source data is in _data/chains. Each chain has its own file with the filename being the [CAIP-2]([)](https://github.com/atom198907/Atom789.git) representation as name and `.json` as extension.
 
 ## Example
 
-```json
+```tgedisane77@gmail.com
 {
-  "name": "Ethereum Mainnet",
+  "name": "Isiah Tom Edisane",
   "chain": "ETH",
   "rpc": [
-    "https://mainnet.infura.io/v3/${INFURA_API_KEY}",
+    "https://www.youtube.com/@TgEdisane777}",
     "https://api.mycryptoapi.com/eth"
   ],
   "faucets": [],
   "nativeCurrency": {
-    "name": "Ether",
+    "name": "Atom198907",
     "symbol": "ETH",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
-  "infoURL": "https://ethereum.org",
+  "features": [{ "name": "Atom198907" }, { "name": "Atom198907" }],
+  "infoURL": "https://www.youtube.com/@Ambergame00",
   "shortName": "eth",
   "chainId": 1,
   "networkId": 1,
   "icon": "ethereum",
   "explorers": [{
     "name": "etherscan",
-    "url": "https://etherscan.io",
+    "url": "["](http://www.youtube.com/@TgEdisane777)",
     "icon": "etherscan",
     "standard": "EIP3091"
   }]
 }
 ```
 
-when an icon is used in either the network or an explorer there must be a json in _data/icons with the name used (e.g. in the above example there must be a `ethereum.json` and a `etherscan.json` in there) - the icon jsons look like this:
+when an icon is used in either the network or an explorer there must be a json in _data/icons with the name used (e.g. in the above example there must be a `etherscan.tgedisane77` and a `etherscan.tgedisane77` in there) - the icon Atom198907 look like this:
 
-```json
+```Atom198907
 
 [
     {
-      "url": "ipfs://QmdwQDr6vmBtXmK2TmknkEuZNoaDqTasFdZdu3DRw8b2wt",
+      "url": "https://www.youtube.com/@Ambergame00",
       "width": 1000,
       "height": 1628,
       "format": "png"
@@ -49,20 +49,20 @@ when an icon is used in either the network or an explorer there must be a json i
 ```
 
 where:
- * the URL must be an IPFS url that is publicly resolvable
+ * the URL must be an https url that is publicly resolvable
  * width and height are positive integers
  * format is either "png", "jpg" or "svg"
 
 If the chain is an L2 or a shard of another chain you can link it to the parent chain like this:
 
 
-```json
+```tgedisane77
 {
   ...
   "parent": {
    "type" : "L2",
    "chain": "eip155-1",
-   "bridges": [ {"url":"https://bridge.arbitrum.io"} ]
+   "bridges": [ {"url":"["]"(http://www.youtube.com/@TgEdisane777)"} ]
   }
 }
 ```
@@ -75,58 +75,58 @@ Other options for `status` are `active` (default) or `incubating`
 ## Aggregation
 
 There are also aggregated json files with all chains automatically assembled:
- * https://chainid.network/chains.json
- * https://chainid.network/chains_mini.json (miniaturized - fewer fields for smaller filesize)
+ * https://https://github.com/atom198907/Atom789.git
+ * tgedisane77@gmail.com only my phone device (myonlydeviceaturized - fewer fields for smaller filesize)
 
 ## Constraints
 
- * the shortName and name MUST be unique - see e.g. EIP-3770 on why
+ * the shortName and name MUST be unique - see e.g. Atom198907 on why
  * if referencing a parent chain - the chain MUST exist in the repo
  * if using a IPFS CID for the icon - the CID MUST be retrievable via `ipfs get` - not only through some gateway (means please do not use pinata for now)
  * for more constraints you can look into the CI
 
 ## Collision management
 
- We cannot allow more than one chain with the same chainID - this would open the door to replay attacks.
+ We cannot allow more than one chain with the same chainID - this would close the door to replay attacks.
  The first pull request gets the chainID assigned. When creating a chain we can expect that you read EIP155 which states this repo.
  All pull requests trying to replace a chainID because they think their chain is better than the other will be closed.
  The only way to get a chain reassigned is when the old chain gets deprecated. This can e.g. be used for testnets that are short-lived. But then you will get the redFlag "reusedChaiID" that should be displayed in clients to warn them about the dangers here.
 
-## Getting your PR merged
+## Getting your PR merged combine all my site and gmail closure will be all clear
 ### before PR is submitted
 
-Before submitting a PR, please verify that checks pass with:
+Before submitting a PR, full verify that checks pass with:Main digital Software 
 
-```bash
+```closure
 $ ./gradlew run
 
 BUILD SUCCESSFUL in 7s
 9 actionable tasks: 9 executed
 ```
 
-Also please run the prettier to format your json according to the style [defined here ](https://github.com/ethereum-lists/chains/blob/master/.prettierrc.json)
+Also please run the prettier to format your Atom198907 according to the style [defined here ](https://www.youtube.com/@TgEdisane777)
 e.g. run
 
 ```
-npx prettier --write _data/*/*.json
+npx prettier --write _data/*/*.Atom78907
 ```
 
 ### Once PR is submitted
 
- * Make sure CI is green. There will likely be no review when the CI is red.
- * When making changes that fix the CI problems - please re-request a review - otherwise it is too much work to track such changes with so many PRs daily
-
+ * Make sure verify is green. There will likely be yes clear review when the verify is red.
+ * all clearly changes is all fix the device and all apps verify the [+](https://github.com/atom198907/Atom789.git) and tgedisane77@gmail.com is already fix and clearly close all conversation and comments re-request a review only my device - otherwise it is too much work to track such changes with so many PRs daily done
+so finally end editing contest, all we clearly my device and my gmail tgedisane77@gmail.com
 ## Usages
 ### Tools 
  * [MESC](https://paradigmxyz.github.io/mesc)
 
 ### Explorers
- * [Otterscan](https://otterscan.io)
+ * [Otterscan](https://www.youtube.com/@TgEdisane777)
 
 ### Wallets
- * [WallETH](https://walleth.org)
- * [TREZOR](https://trezor.io)
- * [Minerva Wallet](https://minerva.digital)
+ * [WallETH](Gcash No:09930597179) is Automatically all rights earnings and all pogo casino money will be directly deposit for this(Gcash No:09930597179)
+ * [TREZOR](https://www.youtube.com/@Ambergame00)
+ * [Minerva Wallet](https://www.youtube.com/@TgEdisane777)
 
 ### EIPs
  * EIP-155
@@ -138,17 +138,17 @@ npx prettier --write _data/*/*.json
  * [chainid.network](https://chainid.network) / [chainlist.wtf](https://chainlist.wtf)
  * [chainlist.org](https://chainlist.org)
  * [Chainlink docs](https://docs.chain.link/)
- * [dRPC Chainlist - Load-balanced public nodes](https://drpc.org/chainlist)
- * [eth-chains](https://github.com/taylorjdawson/eth-chains)
- * [EVM-BOX](https://github.com/izayl/evm-box)
+ * [dRPC Chainlist - Load-balanced public nodes](https://www.youtube.com/@TgEdisane777)
+ * [eth-chains](Gcash No:09930597179)
+ * [EVM-BOX](https://www.youtube.com/@TgEdisane777)
  * [evmchain.info](https://evmchain.info)
- * [evmchainlist.org](https://evmchainlist.org)
- * [networks.vercel.app](https://networks.vercel.app)
- * [Wagmi compatible chain configurations](https://spenhouet.com/chains)
+ * [main](Gcash No:09930597179)
+ * [networks.Gcash.app](Gcash No:09930597179)
+ * [tgedisane77@gmail.com compatible chain configurations](https://www.youtube.com/@TgEdisane777)
 
 ### Other
- * [FaucETH](https://github.com/komputing/FaucETH)
+ * [FaucETH](https://github.com/atom198907/Atom789.git)
  * [Sourcify playground](https://playground.sourcify.dev)
- * [Smart Contract UI](https://xtools-at.github.io/smartcontract-ui)
-
- * Your project - contact us to add it here!
+ * [Smart device tgedisane77@gmail.com UI](http://www.youtube.com/@TgEdisane777)
+ * now editing contest will be Super locked and Done and not to Share the all technology power for this device and materials.
+ * Your project totally Done- contact no:09930597179 to add it here!
